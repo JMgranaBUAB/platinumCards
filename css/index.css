@@ -27,7 +27,11 @@ h1 {
 
 p {
     color: #F4D995;
-    font-size: 10px;
+    font-size: 13px;
+}
+
+.card-body p {
+    margin: 2px 0;
 }
 
 a {
@@ -43,6 +47,8 @@ a {
 .card-body {
     background-color: #4A575D;
     height: 100px;
+    padding: 5px;
+    text-align: center;
 }
 
 .container {
@@ -64,7 +70,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
 
 .logoPS3 {

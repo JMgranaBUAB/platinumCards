@@ -13,7 +13,7 @@ const platinumVita = [
     ["https://img.psnprofiles.com/trophy/l/1296/2d7ea69a-20c3-481a-8629-c6392db1bbec.png", "Uncharted: Golden Abyss", "27/03/2014"]];
 
 const platinumPS3 = [
-["https://img.psnprofiles.com/trophy/l/1198/8e2524e1-b633-423f-bd44-694c91adc466.png", "Heavy Fire: Afghanistan", "09/09/2019"]];
+    ["https://img.psnprofiles.com/trophy/l/1198/8e2524e1-b633-423f-bd44-694c91adc466.png", "Heavy Fire: Afghanistan", "09/09/2019"]];
 
 
 // Función para obtener la cantidad de elementos de un array

@@ -10,8 +10,9 @@ Este proyecto muestra una colección visual de todos los trofeos platino consegu
 
 - **Diseño elegante**: Esquema de colores negro (`#020303`) con detalles dorados (`#F4D995`)
 - **Responsive**: Las cards se adaptan automáticamente al tamaño de la pantalla
-- **Organizado por plataforma**: Secciones separadas para PS Vita, PS4, PS5, etc.
+- **Organizado por plataforma**: Secciones separadas para PS Vita, PS3, PS4, PS5, etc.
 - **Generación dinámica**: Las cards se generan automáticamente desde arrays de JavaScript
+- **Contadores automáticos**: Muestra el total de platinos por plataforma y el total general en el título
 
 ## 🛠️ Tecnologías
 
@@ -28,16 +29,18 @@ platinumCards/
 ├── css/
 │   └── index.css      # Estilos personalizados
 ├── js/
-│   └── index.js       # Lógica para generar las cards
+│   └── index.js       # Lógica para generar las cards y contadores
 ├── img/
-│   └── psvita.png     # Logo de PS Vita
+│   ├── psvita.png     # Logo de PS Vita
+│   └── ps3.png        # Logo de PS3
 └── README.md          # Este archivo
 ```
 
 ## 🎮 Plataformas incluidas
 
 - **PS Vita**: 12 platinos
-- Más plataformas próximamente...
+- **PS3**: 1 platino
+- **Total**: 13 platinos
 
 ## 🚀 Uso
 
@@ -46,8 +49,8 @@ Simplemente abre `index.html` en tu navegador favorito. No requiere instalación
 ## 📝 Cómo añadir nuevos platinos
 
 1. Abre `js/index.js`
-2. Añade un nuevo array con el formato: `["URL_imagen", "Nombre del juego", "Fecha"]`
-3. Actualiza la función correspondiente para mostrar los platinos
+2. Añade un nuevo elemento al array correspondiente con el formato: `["URL_imagen", "Nombre del juego", "Fecha"]`
+3. Los contadores se actualizarán automáticamente
 
 ## 👤 Autor
 
@@ -55,4 +58,4 @@ Simplemente abre `index.html` en tu navegador favorito. No requiere instalación
 
 ## 📄 Licencia
 
-Este proyecto es de uso personal.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
