@@ -18,6 +18,13 @@ h6 {
     color: #F4D995;
 }
 
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 p {
     color: #F4D995;
 }
