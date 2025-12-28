@@ -34,3 +34,11 @@ a {
 .card-body {
     background-color: #4A575D;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
