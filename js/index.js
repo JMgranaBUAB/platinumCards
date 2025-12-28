@@ -12,6 +12,8 @@ const platinumVita = [
     ["https://img.psnprofiles.com/trophy/l/2633/48d286f6-59ea-4f08-8ffc-859c0115682b.png", "PlayStation Vita Pets", "13/07/2014"],
     ["https://img.psnprofiles.com/trophy/l/1296/2d7ea69a-20c3-481a-8629-c6392db1bbec.png", "Uncharted: Golden Abyss", "27/03/2014"]];
 
+const platinumPS3 = [
+["https://img.psnprofiles.com/trophy/l/1198/8e2524e1-b633-423f-bd44-694c91adc466.png", "Heavy Fire: Afghanistan", "09/09/2019"]];
 
 
 // Función para obtener la cantidad de elementos de un array
@@ -41,19 +43,37 @@ function displayPlatinumVita() {
     }
 }
 
+// Función para mostrar los platinos de PS3
+function displayPlatinumPS3() {
+    const container = document.getElementById('platinumPS3');
+    if (container) {
+        const platinumCards = platinumPS3.map(createPlatinumCard).join('');
+        container.innerHTML = platinumCards;
+    }
+}
+
 // Ejecutar la función para mostrar los platinos
 displayPlatinumVita();
+displayPlatinumPS3();
 
-// Obtener y mostrar la cantidad de platinos
+// Obtener y mostrar la cantidad de platinos de PSVita
 const totalVitaPlatinum = getArrayLength(platinumVita);
-const countVitaElement = document.getElementById('platinumCount');
+const countVitaElement = document.getElementById('platinumCountVita');
 if (countVitaElement) {
     countVitaElement.textContent = `Total: ${totalVitaPlatinum}`;
 }
 
+// Obtener y mostrar la cantidad de platinos de PS3
+const totalPS3Platinum = getArrayLength(platinumPS3);
+const countPS3Element = document.getElementById('platinumCountPS3');
+if (countPS3Element) {
+    countPS3Element.textContent = `Total: ${totalPS3Platinum}`;
+}
 
 // Obtener y mostrar la cantidad de platinos en total
-const totalAllPlatinum = getArrayLength(platinumVita);
+let totalAllPlatinum = 0;
+totalAllPlatinum += getArrayLength(platinumVita);
+totalAllPlatinum += getArrayLength(platinumPS3);
 const countAllElement = document.getElementById('platinumAllCount');
 if (countAllElement) {
     countAllElement.textContent = `Los ${totalAllPlatinum} Platinos de JMgranaGaming`;
