@@ -37,16 +37,27 @@ a {
 .card {
     background-color: #4A575D;
     border: 2px solid #F4D995;
+    margin: 10px;
 }
 
 .card-body {
     background-color: #4A575D;
+    height: 100px;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding: 2rem;
+    
+}
+
+.logoPSVita {
+    width: 120px;
+}
+
+.containerLogoPSVita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
