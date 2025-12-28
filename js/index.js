@@ -27,7 +27,7 @@ function createPlatinumCard([image, title, date]) {
         <div class="card" style="width: 100px;">
             <img src="${image}" class="card-img-top" alt="${title}">
             <div class="card-body">
-                <p>${title}</p>
+                <p class="cardTitle">${title}</p>
                 <p>${date}</p>
             </div>
         </div>
