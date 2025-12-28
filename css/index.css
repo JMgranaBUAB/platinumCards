@@ -1,0 +1,36 @@
+body {
+    background-color: #020303;
+    margin: 0;
+    padding: 0;
+    color: #F4D995;
+}
+
+header {
+    color: #F4D995;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #F4D995;
+}
+
+p {
+    color: #F4D995;
+}
+
+a {
+    color: #F4D995;
+}
+
+.card {
+    background-color: #4A575D;
+    border: 2px solid #F4D995;
+}
+
+.card-body {
+    background-color: #4A575D;
+}
