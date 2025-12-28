@@ -46,10 +46,12 @@ a {
 }
 
 .container {
+    justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    padding: 0;
+    max-width: 100%;
 }
 
 .logoPSVita {
