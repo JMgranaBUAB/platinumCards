@@ -1,6 +1,7 @@
 //["", "", ""]
 
 const platinumPS5 = [
+    ["https://img.psnprofiles.com/trophy/l/28646/e50bcd27-c89e-4dd7-a55c-095909e5f0cd.png", "Cat Quest III", "29/12/2025"],
     ["https://img.psnprofiles.com/trophy/l/23921/eba5eda9-50ad-42a7-8819-683dd8a6a256.png", "Paw Patrol World", "20/12/2025"],
     ["https://img.psnprofiles.com/trophy/l/33335/afe3b5c7-b1cf-4e2b-8b8c-2ce85826c7ee.png", "MotoGP 25", "16/12/2025"],
     ["https://img.psnprofiles.com/trophy/l/27272/55518891-44c0-400a-b7a4-8bebe937512e.png", "Indika", "01/09/2025"],
@@ -27,6 +28,119 @@ const platinumPS5 = [
     ["https://img.psnprofiles.com/trophy/l/17853/3304aa51-2c90-4757-97a6-1e928ee4ceb7.png", "Paw Patrol: Mighty Pups", "24/06/2023"],
     ["https://img.psnprofiles.com/trophy/l/16802/818f9b36-924d-4fe3-8c3f-8c8907ea572f.png", "F1 22", "13/05/2023"],
     ["https://img.psnprofiles.com/trophy/l/13478/6f347cc8-9c68-4edb-b1ce-b0fbae3e7e95.png", "Last Stop", "18/02/2023"]];
+
+const platinumPS4 = [
+    ["", "Farming Simulator 19", "08/09/2025"],
+    ["", "Bluey", "01/08/2025"],
+    ["", "Alpine Zone", "24/01/2025"],
+    ["", "Odd Color Out", "24/01/2025"],
+    ["", "Defeat Me", "09/01/2025"],
+    ["", "The Light in the Darkness", "21/10/2024"],
+    ["", "LEGO The Incredibles", "18/07/2024"],
+    ["", "Cat Quest II", "01/06/2024"],
+    ["", "Cat Quest", "24/05/2024"],
+    ["", "Star Wars Battlefront II", "29/02/2024"],
+    ["", "Lost Words: Beyond the Page", "19/02/2024"],
+    ["", "Paw Patrol: Mighty Pups", "19/08/2023"],
+    ["", "My Little Pony: A Maretime Bay Adventure", "02/08/2023"],
+    ["", "My Friend Peppa Pig", "12/07/2023"],
+    ["", "Far Cry: New Dawn", "29/05/2023"],
+    ["", "Untitled Goose Game", "04/05/2023"],
+    ["", "Twogether: Project Indigos Chapter 1", "31/01/2023"],
+    ["", "The Gardens Between", "15/01/2023"],
+    ["", "Far Cry Primal", "04/12/2022"],
+    ["", "Far Cry 3: Classic Edition", "13/11/2022"],
+    ["", "Oriana: Story One - My First Date RPG", "08/11/2022"],
+    ["", "Elliot: Story One - My First Date RPG", "28/10/2022"],
+    ["", "Little Adventure on the Prairie", "28/10/2022"],
+    ["", "Way Down", "28/10/2022"],
+    ["", "Monopoly Madness", "15/10/2022"],
+    ["", "Grid", "30/09/2022"],
+    ["", "Tom Clancy's Ghost Recon Breakpoint", "01/09/2022"],
+    ["", "F1 2021", "26/08/2022"],
+    ["", "Telling Lies", "06/07/2022"],
+    ["", "My Name is Mayo 3", "03/06/2022"],
+    ["", "Round Invaders", "03/06/2022"],
+    ["", "Spectrewoods", "23/04/2022"],
+    ["", "The Last of Us Part II", "12/12/2021"],
+    ["", "Assassin's Creed Origins", "04/09/2021"],
+    ["", "Olympic Games: Tokyo 2020", "02/08/2021"],
+    ["", "Remnant: From the Ashes", "17/03/2021"],
+    ["", "Tom Clancy's The Division 2", "25/02/2021"],
+    ["", "Concrete Genie", "20/02/2021"],
+    ["", "We Were Here", "17/02/2021"],
+    ["", "LEGO Jurassic World", "10/02/2021"],
+    ["", "My Name is Mayo 2", "30/01/2021"],
+    ["", "The Sims 4", "29/01/2021"],
+    ["", "LEGO The Hobbit", "28/01/2021"],
+    ["", "Wreckfest", "14/01/2021"],
+    ["", "F1 2020", "10/12/2020"],
+    ["", "Massira", "03/11/2020"],
+    ["", "Days Gone", "29/10/2020"],
+    ["", "Road Bustle", "04/09/2020"],
+    ["", "The Town of Light", "28/08/2020"],
+    ["", "MotoGP 17", "26/08/2020"],
+    ["", "Nubla 2", "03/08/2020"],
+    ["", "F1 2017", "19/06/2020"],
+    ["", "Battlefield V", "15/06/2020"],
+    ["", "Marvel's Spider-Man", "05/06/2020"],
+    ["", "Uncharted: The Lost Legacy", "25/05/2020"],
+    ["", "Uncharted 4: A Thief's End", "14/05/2020"],
+    ["", "Uncharted 3: Drake's Deception Remastered", "20/04/2020"],
+    ["", "Uncharted 2: Among Thieves Remastered", "10/04/2020"],
+    ["", "Uncharted: Drake's Fortune Remastered", "30/03/2020"],
+    ["", "Control", "12/03/2020"],
+    ["", "Assassin's Creed Syndicate", "15/02/2020"],
+    ["", "Gem Smashers", "23/11/2019"],
+    ["", "F1 2016", "31/10/2019"],
+    ["", "Wizards Tourney", "19/10/2019"],
+    ["", "SkyScrappers", "08/10/2019"],
+    ["", "Deiland", "26/09/2019"],
+    ["", "Monster Energy Supercross", "23/09/2019"],
+    ["", "Black Mirror", "15/09/2019"],
+    ["", "Battlefield 1", "07/06/2019"],
+    ["", "Timothy vs the Aliens", "20/05/2019"],
+    ["", "Portal Knights", "04/05/2019"],
+    ["", "LEGO Batman 3: Beyond Gotham", "08/04/2019"],
+    ["", "Conan Exiles", "05/04/2019"],
+    ["", "Goat Simulator", "15/03/2019"],
+    ["", "Tearaway Unfolded", "12/02/2019"],
+    ["", "Onrush", "23/01/2019"],
+    ["", "A Way Out", "21/01/2019"],
+    ["", "The World of Nubla", "10/12/2018"],
+    ["", "Watch Dogs 2", "09/12/2018"],
+    ["", "Battlefield 4", "24/11/2018"],
+    ["", "Burly Men at Sea", "16/11/2018"],
+    ["", "FIFA 18", "15/11/2018"],
+    ["", "That's You!", "11/11/2018"],
+    ["", "Far Cry 4", "28/10/2018"],
+    ["", "Tom Clancy's The Division", "26/10/2018"],
+    ["", "The Wolf Among Us", "05/10/2018"],
+    ["", "Knack", "20/09/2018"],
+    ["", "Fallout Shelter", "03/09/2018"],
+    ["", "Tom Clancy's Ghost Recon Wildlands", "06/05/2018"],
+    ["", "Batman: The Telltale Series", "25/11/2017"],
+    ["", "My Name is Mayo", "11/11/2017"],
+    ["", "Lara Croft GO", "15/09/2017"],
+    ["", "Mafia III", "14/09/2017"],
+    ["", "Life is Strange", "01/07/2017"],
+    ["", "Horizon Zero Dawn", "08/05/2017"],
+    ["", "Tales from the Borderlands", "07/05/2017"],
+    ["", "Day of the Tentacle", "27/02/2017"],
+    ["", "Minecraft: Story Mode", "26/02/2017"],
+    ["", "Tales from the Borderlands", "19/02/2017"],
+    ["", "F1 2015", "12/02/2017"],
+    ["", "The Deadly Tower of Monsters", "17/12/2016"],
+    ["", "Hitman GO", "09/05/2016"],
+    ["", "Toro", "08/05/2016"],
+    ["", "Nubla", "12/03/2016"],
+    ["", "Game of Thrones", "28/02/2016"],
+    ["", "Rocket League", "27/12/2015"],
+    ["", "Wolfenstein: The New Order", "23/08/2015"],
+    ["", "Murdered: Soul Suspect", "25/05/2015"],
+    ["", "The Order: 1886", "10/05/2015"],
+    ["", "The Walking Dead", "09/05/2015"]
+];
 
 const platinumVita = [
     ["https://img.psnprofiles.com/trophy/l/5532/55e02a90-ce65-4b6b-8b15-a0a9971f19cd.png", "My Name is Mayo", "08/11/2017"],
@@ -73,6 +187,15 @@ function displayPlatinumVita() {
     }
 }
 
+// Función para mostrar los platinos de PS4
+function displayPlatinumPS4() {
+    const container = document.getElementById('platinumPS4');
+    if (container) {
+        const platinumCards = platinumPS4.map(createPlatinumCard).join('');
+        container.innerHTML = platinumCards;
+    }
+}
+
 // Función para mostrar los platinos de PS3
 function displayPlatinumPS3() {
     const container = document.getElementById('platinumPS3');
@@ -93,6 +216,7 @@ function displayPlatinumPS5() {
 
 // Ejecutar la función para mostrar los platinos
 displayPlatinumVita();
+displayPlatinumPS4();
 displayPlatinumPS3();
 displayPlatinumPS5();
 
@@ -110,6 +234,13 @@ if (countPS3Element) {
     countPS3Element.textContent = `Total: ${totalPS3Platinum}`;
 }
 
+// Obtener y mostrar la cantidad de platinos de PS4
+const totalPS4Platinum = getArrayLength(platinumPS4);
+const countPS4Element = document.getElementById('platinumCountPS4');
+if (countPS4Element) {
+    countPS4Element.textContent = `Total: ${totalPS4Platinum}`;
+}
+
 // Obtener y mostrar la cantidad de platinos de PS5
 const totalPS5Platinum = getArrayLength(platinumPS5);
 const countPS5Element = document.getElementById('platinumCountPS5');
@@ -121,6 +252,7 @@ if (countPS5Element) {
 let totalAllPlatinum = 0;
 totalAllPlatinum += getArrayLength(platinumVita);
 totalAllPlatinum += getArrayLength(platinumPS3);
+totalAllPlatinum += getArrayLength(platinumPS4);
 totalAllPlatinum += getArrayLength(platinumPS5);
 const countAllElement = document.getElementById('platinumAllCount');
 if (countAllElement) {
