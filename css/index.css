@@ -46,9 +46,12 @@ a {
 
 .card-body {
     background-color: #4A575D;
-    height: 100px;
+    height: 110px;
     padding: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container {
@@ -74,6 +77,16 @@ a {
 }
 
 .logoPS3 {
+    margin-top: 30px;
+    width: 120px;
+}
+
+.logoPS4 {
+    margin-top: 30px;
+    width: 120px;
+}
+
+.logoPS5 {
     margin-top: 30px;
     width: 120px;
 }
