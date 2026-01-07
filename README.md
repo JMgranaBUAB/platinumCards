@@ -59,3 +59,4 @@ Simplemente abre `index.html` en tu navegador favorito. No requiere instalación
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+# platinumCardsReact
